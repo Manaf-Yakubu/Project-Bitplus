@@ -1,0 +1,292 @@
+*{
+     margin: 0;
+     padding: 0;
+     display: block;
+}
+body{
+     background-color: rgb(211, 193, 164);
+     background-image: url(Image/baa.jpg);
+     background-image: cover;
+/*      background-position: center; */
+}
+.mar{
+     background-image: url(Image/body.jpg);
+     position: cover;
+     padding: o.6rem;
+     font-size: 2rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 800;
+     border: 2px solid rgba(248, 102, 5, 0.349);
+     border-radius: 2rem;
+     color: orangered;
+}
+ul{
+     margin: 3rem;
+     display: flex;
+     gap: 3rem;
+}
+.spa{
+     flex-wrap: nowrap;
+}
+ul li a{
+     color: aliceblue;
+     text-decoration: none;
+     font-size: 2rem;
+     font-weight: 900;
+     border: 1px solid black;
+     border-radius: 2rem ;
+     padding: 1.3rem;
+     background-color:rgba(173, 163, 145, 0.473)
+     
+}
+ul li a{
+     animation-name: bam;
+     animation-duration: 6s;
+     animation-timing-function: ease-in;
+     animation-delay: 1s;
+     animation-iteration-count:infinite;
+     
+}
+@keyframes bam{
+     0%{
+          transform: translateX(0);
+      }
+     25%{
+          background-color: rgba(0, 0, 255, 0.404);
+     }
+     50%{
+          background-color: rgba(0, 255, 255, 0.438);
+     }
+}
+ul li a:visited{
+     color: blueviolet;
+}
+ul li a:active{
+     color: rgb(3, 1, 24);
+}
+ul li a:hover{
+     color: rgb(0, 0, 0);
+     background-color: rgba(189, 138, 18, 0.541);
+     padding: 1.7rem;
+     transition: ease-in-out;
+     transition-duration: 1s;
+}
+.can{
+     width: 20rem;
+     margin-top: 0.3rem;
+     margin-left: 3rem;
+     background-image: url(Image/gaa.png);
+     position: cover;
+     border: 2px solid black;
+     border-radius: 0 9rem 9rem 0;
+     animation-name: lid;
+     animation-duration: 6s;
+     animation-timing-function: ease-in;
+     animation-delay: 1s;
+     animation-iteration-count: infinite;
+}
+@keyframes lid{
+     0%{
+          transform: translateX(0);
+      }
+      33%{
+          transform: translateX(600px);
+          background-color: rgba(88, 111, 155, 0.541);
+      }
+      66%{
+          transform: translateX(-600px) ;
+      } 
+
+}
+.form{
+     animation-name: ide;
+     animation-duration: 4s;
+     animation-timing-function: ease-in;
+     animation-delay: 1s;
+     animation-iteration-count: 1;
+}
+@keyframes ide{
+     0%{
+          transform: translateX(0);
+      }
+      33%{
+          transform: translateX(600px);
+          background-color: rgba(88, 111, 155, 0.541);
+      }
+      66%{
+          transform: translateX(-600px);
+      }
+     }
+ .text1{
+     animation-name: slid;
+     animation-duration: 4s;
+     animation-timing-function: ease-in;
+     animation-delay: 1s;
+     animation-iteration-count: 1;
+ } 
+ @keyframes slid{
+     0%{
+          transform: translateX(0);
+      }
+      66%{
+          transform: translateX(-600px);
+      }
+     }   
+.can a{
+     text-decoration: none;
+     font-size: 2rem;
+     font-weight: 900;
+     display: block;
+     padding: 0.7rem;
+     color: red;
+}
+.can a:hover{
+     color: blanchedalmond;
+     background-color: blue;
+     padding: 1rem;
+     border-radius: 10px;
+}
+.cop{
+     font-weight: 800;
+     font-size: 2rem;
+     color: black;
+     margin-top: 3rem;
+     text-align: center
+}
+
+.text1{
+     -webkit-background-clip: text;
+     background-image: url(Image/body.jpg);
+}
+.nav{
+     border: 1px solid black;
+     border-radius: 2rem;
+     position: cover;
+}
+.text1{
+     margin-left: 2rem;
+     font-size: 8rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 900;
+     color: rgba(230, 153, 9, 0.137);
+     /* background-color: rgba(255, 228, 196, 0.459);
+     border-radius: 2rem; */
+     padding: 2rem;
+     width: 26rem;
+     border: 2rem solid rgba(0, 0, 0, 0.5);
+     border-radius: 2rem;
+}
+.text2{
+     margin-left: 3rem;
+     color: rgb(241, 102, 8);
+     margin-top: 2rem;
+     font-size: 3rem;
+     font-weight: 900;
+     
+}
+
+.logo{
+     letter-spacing: 0.3rem;
+    color: rgb(214, 214, 164);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    color: orangered;
+}
+.cop{
+    background-color: rgba(155, 140, 121, 0.397);
+    padding: 2rem;
+    border: 2px 2rem solid;
+}
+.form{
+     width: 250px;
+     height: 400px;
+     background-color: rgba(7, 7, 7, 0.877);
+     position: absolute;
+     top: 320px;
+     left: 1000px;
+     border-radius: 2rem;
+     padding: 1rem;
+
+}
+.form h2{
+     text-align: center;
+     background-color: rgba(124, 117, 105, 0.938);
+     border:1px solid rgb(0, 0, 0) ;
+     border-radius: 10px;
+     padding: 0.3rem;
+     font-weight: 900;
+     color: rgb(241, 146, 2);
+     font-size: 2rem;
+}
+.form input{
+     margin-top: 2rem;  
+     width: 15rem;
+     height: 2rem;  
+     background-color: transparent;
+     border: 1px solid orange;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     color: white;
+     letter-spacing: 1px;
+    /*  border-radius: 10px; */
+      
+}
+.form input:focus{
+     outline: none;
+}
+::placeholder{
+     color: aliceblue;
+}
+.butt{
+     margin-top: 2rem;
+     width: 15rem;
+     height: 2rem;
+     background-color: orange;
+     border: 0.1px solid black;
+     border-radius: 10px;
+     font-size: 1.2rem;
+     font-weight: 900;
+}
+.butt a{
+     text-decoration: none;
+     color: rgb(29, 31, 31);
+     font-weight: 900;
+     font-size: 1.3rem;
+}
+.butt a:hover{
+     background-color: rgb(83, 73, 59);
+     border-radius: 10px;
+     color: rgb(231, 227, 222);
+     cursor: grab;
+     padding: 0.35rem;
+     transition:ease-in-out;
+     transition-duration: 0.3s;
+}
+
+.form .lin{
+     margin-top: 2rem;
+     text-align: center;
+     color: blanchedalmond;
+     font-size: 1.5rem;
+}
+.Sin{
+     width: 15rem;
+     height: 2rem;
+     background-color: orange;
+     border-radius: 10px;
+}
+.Sin a{
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: 700;
+     color: rgb(31, 32, 32);
+}
+.Sin a:hover{
+     color: rgb(31, 32, 32);
+     background-color:rgba(112, 104, 89, 0.959);
+     padding: 0.39rem;
+     border-radius: 10px;
+     transition: ease-in-out;
+     transition-duration: 0.3s;
+}
